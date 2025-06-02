@@ -43,3 +43,8 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main()) 
+
+    #sync
+# //agent: Agent = Agent(name="Assistant", instructions="You are a helpful assistant", model=model)
+# //result = Runner.run_sync(agent, "Hello,whats up .", run_config=config)
+# //print(result.final_output)
